@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		982C1D882C495E9700973FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982C1D872C495E9700973FF4 /* Assets.xcassets */; };
-		9880E7F62C4A5DF6001933FD /* MyPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 9880E7F52C4A5DF6001933FD /* MyPackage */; };
 		98F9FC8B2C495D3100B0A2B5 /* AppIntentsBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F9FC8A2C495D3100B0A2B5 /* AppIntentsBugApp.swift */; };
 		98F9FC8D2C495D3100B0A2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F9FC8C2C495D3100B0A2B5 /* ContentView.swift */; };
 		98F9FC8F2C495D3200B0A2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F9FC8E2C495D3200B0A2B5 /* Assets.xcassets */; };
@@ -44,7 +43,6 @@
 
 /* Begin PBXFileReference section */
 		982C1D872C495E9700973FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		982C1D8D2C49660200973FF4 /* MyPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = MyPackage; path = ../MyPackage; sourceTree = "<group>"; };
 		98F9FC872C495D3100B0A2B5 /* AppIntentsBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntentsBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F9FC8A2C495D3100B0A2B5 /* AppIntentsBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentsBugApp.swift; sourceTree = "<group>"; };
 		98F9FC8C2C495D3100B0A2B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9880E7F62C4A5DF6001933FD /* MyPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +82,6 @@
 		98F9FC7E2C495D3100B0A2B5 = {
 			isa = PBXGroup;
 			children = (
-				982C1D8D2C49660200973FF4 /* MyPackage */,
 				98F9FC892C495D3100B0A2B5 /* AppIntentsBug */,
 				98F9FC9D2C495DA000B0A2B5 /* MyIntent */,
 				98F9FC882C495D3100B0A2B5 /* Products */,
@@ -168,7 +164,6 @@
 			);
 			name = MyIntent;
 			packageProductDependencies = (
-				9880E7F52C4A5DF6001933FD /* MyPackage */,
 			);
 			productName = MyIntent;
 			productReference = 98F9FC9C2C495DA000B0A2B5 /* MyIntent.appex */;
@@ -523,13 +518,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		9880E7F52C4A5DF6001933FD /* MyPackage */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = MyPackage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 98F9FC7F2C495D3100B0A2B5 /* Project object */;
 }

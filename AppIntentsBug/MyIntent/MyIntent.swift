@@ -1,6 +1,5 @@
 import AppIntents
 import SwiftUI
-import MyPackage
 
 struct MyIntent: AppIntent {
     static var title: LocalizedStringResource = "MyIntent"
@@ -9,12 +8,11 @@ struct MyIntent: AppIntent {
         return .result(
             dialog: .init(stringLiteral: "My Title"),
             view: VStack {
-                Text(textFromPackage())
                 HStack {
-                    Image("dog")
+                    Image("iphone_dog_1")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
-                    imageFromPackage()
+                    Image("universal_dog_1")
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                 }
