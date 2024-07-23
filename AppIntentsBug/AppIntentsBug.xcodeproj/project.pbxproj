@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		982C1D882C495E9700973FF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982C1D872C495E9700973FF4 /* Assets.xcassets */; };
+		98F77E492C4FA84100300386 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F77E482C4FA84100300386 /* Colors.xcassets */; };
 		98F9FC8B2C495D3100B0A2B5 /* AppIntentsBugApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F9FC8A2C495D3100B0A2B5 /* AppIntentsBugApp.swift */; };
 		98F9FC8D2C495D3100B0A2B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98F9FC8C2C495D3100B0A2B5 /* ContentView.swift */; };
 		98F9FC8F2C495D3200B0A2B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98F9FC8E2C495D3200B0A2B5 /* Assets.xcassets */; };
@@ -42,7 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		982C1D872C495E9700973FF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98F77E482C4FA84100300386 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		98F9FC872C495D3100B0A2B5 /* AppIntentsBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppIntentsBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98F9FC8A2C495D3100B0A2B5 /* AppIntentsBugApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntentsBugApp.swift; sourceTree = "<group>"; };
 		98F9FC8C2C495D3100B0A2B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,7 +123,7 @@
 				98F9FC9E2C495DA000B0A2B5 /* MyIntentExtension.swift */,
 				98F9FCA02C495DA000B0A2B5 /* MyIntent.swift */,
 				98F9FCA22C495DA000B0A2B5 /* Info.plist */,
-				982C1D872C495E9700973FF4 /* Assets.xcassets */,
+				98F77E482C4FA84100300386 /* Colors.xcassets */,
 			);
 			path = MyIntent;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				982C1D882C495E9700973FF4 /* Assets.xcassets in Resources */,
+				98F77E492C4FA84100300386 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,14 +8,10 @@ struct MyIntent: AppIntent {
         return .result(
             dialog: .init(stringLiteral: "My Title"),
             view: VStack {
-                HStack {
-                    Image("iphone_dog_1")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                    Image("universal_dog_1")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                }
+                Text("Blue")
+                    .foregroundStyle(Color.blue)
+                Text("Blue from assets")
+                    .foregroundStyle(Color("blue-from-assets"))
             }
         )
     }
